@@ -110,14 +110,14 @@ ul
 {
 	p
 	{
-		font-size: 36px
+		font-size: 36px;
 	}
 
 	.appicon
 	{
 		border-radius: 25px;
-		width: 75%;
-		height: 75%;
+		width: 50%;
+		height: 50%;
 		margin-bottom: 20px;
 		margin-left: auto;
 		margin-right: auto;		
