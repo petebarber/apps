@@ -6,10 +6,31 @@
 	<link rel="stylesheet" href="assets/stylesheets/main.css">
 </head>
 <body>
-	<article class="flex-container-left">
+	<article id="Photone" class="flex-container-right">
+		<img class="appicon appicon-right" src="assets/PhotoneIcon.png">		
+		<section class="text">
+			<h2 class="app-title">Photone for OneDrive</h2>
+			<p>Photone allows you to view your photos (everything in the Photos folders) from Microsoft OneDrive on the latest Apple TV.</p>
+			<p>If you have many (I have 17000+) photos then Photone does not wait for all the information to be downloaded before displaying any thumbnails. Instead photos become available as soon as possible. When downloading thumbnails multiple are downloaded simaltaneously giving you quick access to your photos & videos.</p>
+			<p>It consists on an iOS App that is used to sign in to OneDrive and obtain an access token (that is valid for one hour) that is then saved to your iCloud account. This is required as it is not yet possible to sign in to OneDrive directly from Apple TV.</p>
+			<p>The main App is for Apple TV which using your synchronized iCloud account is able to obtain the access token which can be used to sign in to OneDrive and download your photos.</p>
+			<p>The access token is only valid for one hour (the expiration time is shown on the iOS App). After this time you will need to re-authorize via the iOS App.</p>
+			<p>You can remove the access token from either version of the App. If you sign out of iCloud the token remains valid until its expiration time but if you sign in as another user than it will be replaced.</p>
+			<section>
+				<h3>Notes</h3>
+				<ul>
+					<li>A Microsoft OneDrive account and Apple iCloud account are required</li>
+					<li>Only OneDrive Personal, not Business is supported.</li>
+					<li>The iOS App is only used to authenticate with OneDrive, it does not display any photos.</li>
+				</ul>
+			</section>
+		</section>
+	</article>
+			
+	<article id="Follow" class="flex-container-left">
 		<img class="appicon appicon-left" src="assets/FollowAppIcon.png">
 		<section class="text">
-			<p class="app-title">Follow</P>
+			<h2 class="app-title">Follow</h2>
 			<p>When visiting new places and wondering or driving around would you like a record of your route? You can do this with a lot of apps but these tend to use GPS tracking which consumes a lot of power. Follow uses a less well known feature of iOS location tracking which is only updating your position when you move from one mobile cell to another and/or through WiFi connections. This reduces the accuracy but vastly improves the battery life whilst creating a useful trail.</p>
 			<p>Follow creates a visual route of your current journey overlaid on a map. This can be discarded anytime or saved to create a history of memorable journeys which can be reviewed later. For the current journey, distance traveled and the current latitude and longitude are displayed.</p>
 			<p>If battery life is not an issue then GPS based tracking can be enabled along with specifying the distance in between GPS updates. When travelling faster these can be reduced.</p>
@@ -17,10 +38,10 @@
 		</section>
 	</article>
 
-	<article class="flex-container-right">
-		<img class="appicon appicon-left" src="assets/SimpleNoughtsAndCrosses.png">		
+	<article id="SimpleNoughtsAndCrosses" class="flex-container-right">
+		<img class="appicon appicon-right" src="assets/SimpleNoughtsAndCrosses.png">		
 		<section class="text">
-			<p class="app-title">Simple Noughts and Crosses</p>
+			<h2 class="app-title">Simple Noughts and Crosses</h2>
 			<p>A simple version of Noughts and Crosses (also known as Tic-Tac-Toe). A running total is kept of wins, losses and draws (which is reset when 10 is reached). Initially crosses start and then it's the losing player or in the event of a draw then starting player alternates.</p>
 			<p>Simple Noughts and Crosses supports two human players competing as well as player vs AI with the AI having 3 levels of difficulty. Tap the AI/Difficultly Level number button in the middle of Player information to select a human player or the desired difficulty level.</p>
 			<p>Additionally, AI vs AI is possible. It's quite fun & relaxing watching two AIs complete especially when they're at different difficulty levels. At any time you can switch AI level or to back and forth to a human player.</p>
@@ -28,14 +49,56 @@
 		</section>
 	</article>
 	
-	<article class="flex-container-left">
+	<article id="TodoByEmail" class="flex-container-left">
 		<img class="appicon appicon-left" src="assets/TodoByEmailIcon.png">
 		<section class="text">
-			<p class="app-title"><a href="todobyemail.com">Todo by email</a></p>
+			<h2 class="app-title">Todo by email</h2>
 			<p>Todo by email is a minimalist Todo app with the added ability (if a the subscription is bought) that allows you to email new Todo items to your assigned (upon subscription) @todobyemail.com address. When received these are stored in the cloud and pushed out as silent notifications to your synchronized devices.</p>
 			<p>Todo items are stored in the cloud and synchronized with up to 2 iOS devices. Items are encrypted within the cloud & on devices.</p>
 		</section>
 	</article>
+
+	<article id="Todo" class="flex-container-right">
+		<img class="appicon appicon-right" src="assets/TodoIcon.png">
+		<section class="text">
+			<h2 class="app-title">Todo</h2>
+			<p>This is a very simple minimalist To Do list app.</p>
+			<p>No start dates, no end dates or reminders, just a list of items. When they're done either mark them as done. When you don't want to seem them anymore just delete them. The same goes for an item that's not going to get done or isn't relevant anymore.</p>
+			<p>All the editing occurs inline. No pop-up boxes or buttons to press to make things happen. Just tap on the last line and type. Press done or the + icon on the side to create your item.</p>
+			<p>To mark items as complete tap on the round button and if find there's still a bit more to do tap on it again to mark as needing some attention.</p>
+			</section>
+	</article>
+	
+	<article id="ConkChooper" class="flex-container-left">
+		<img class="appicon appicon-left" src="assets/ConkChopperIcon.png">
+		<section class="text">
+			<h2 class="app-title">Conk Chopper</h2>
+			<p>>Have you ever wondered what you, someone else or something would like with a large horizontal part of face removed and the remain halves joined together? No! Well, if you have or even if you haven't Conk Chopper is the App for just this. In particular it's designed to see what you look like with your nose AKA Conk removed, i.e. Chopped.</p>
+			<p>Chopper works with photos from your library & from your camera.</p>				
+			<p>iOS sharing any Conk Chopped photos can be saved and shared to Facebook & Twitter.</p>				
+			<p>Move the bottom picture up & down to control the section removed. Zoom in & out to vary the size of the section.</p>
+		</section>
+	</article>	
+
+	<article id="HungryBunny" class="flex-container-right">
+		<img class="appicon appicon-right" src="assets/HungryBunnyIcon.png">
+		<section class="text">
+			<h2 class="app-title">Hungry Bunny</h2>
+			<p>Hungry Bunny is hungry! Can you help Hungry Bunny to get the carrots before Hungry Bunny runs out of energy and disappears. There is no path so Hungry Bunny needs you to place the bricks so that Hungry Bunny does fall of the edge. Be careful not to leave large gaps between otherwise Hungry Bunny will slip through them! Touch the screen to stop the brick. If it the brick goes off the screen it will re-appear from the other side.</p>
+			<p>Get a point for each brick that Hungry Bunny walks over.</p>
+			</section>
+	</article>
+
+	<article id="BoingySplat" class="flex-container-left">
+		<img class="appicon appicon-left" src="assets/BoingySplatIcon.png">
+		<section class="text">
+			<h2 class="app-title">Boingy Splat</h2>
+			<p>Splat is simple but fun and noisy action game. Using your thumb or finger flick the green ball to splat the tomatoes. The ball can be stopped at any point by touching it but don't hold on for too long as it'll drop to the bottom, keep on flicking.</p>
+			<p>Points are scored for each tomato splatted. After the first level bonus points are awarded depending on how fast targets are splatted and the size of the splat. Simple instructions are provided before each level. These are shown automatically the first time you play and afterwards can be summoned by pressing the '?' button.</p>
+			<p>There is only one goal: get the highest score! You can't die but it's hard to get the maximum score.</p>
+		</section>
+	</article>	
+		
 
 	<footer class="container">
 		<div class="container center-text">
