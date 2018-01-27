@@ -28,9 +28,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -48,6 +50,10 @@ table {
 }
 
 /* My */
+
+body {
+	line-height: 3;
+}
 
 *,
 *:before,
@@ -106,17 +112,22 @@ ul
 	margin-left: 40px;
 }
 
+li
+{
+	margin-bottom: 5px;
+}
+
 @media (max-device-width: 749px)
 {
 	h2
 	{
-		font-size: 40pt;
+		font-size: 18pt;
 	}
 
 	p
 	{
-		font-size: 36pt;
-		margin-bottom: 66px;
+		font-size: 14pt;
+		margin-bottom: 22px;
 	}
 
 	.appicon
